@@ -1,5 +1,5 @@
 # ISOP
-Isoform-level expression patterns in single-cell RNA-sequencing data
+**ISO**form-level expression **P**atterns in single-cell RNA-sequencing data
 
 # How to install "ISOP"
 ### Latest release
