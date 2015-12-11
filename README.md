@@ -6,7 +6,7 @@
 [Version 0.99.0](https://github.com/nghiavtr/ISOP/releases/download/v0.99.0/ISOP_0.99.0.tar.gz)
 #####Install from command line:
 ```R
-R CMD install ISOP_x.y.z.tar.gz 
+R CMD INSTALL ISOP_x.y.z.tar.gz 
 ```
 where ISOP_x.y.z.tar.gz is one version of ISOP
 #####ISOP package requires the some packages installed before using:
