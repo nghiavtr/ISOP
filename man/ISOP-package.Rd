@@ -25,7 +25,7 @@ Maintainer: Trung Nghia Vu <nghiavtr@gmail.com>
 
 }
 \examples{ 
-# See vignette
+# See the user guide of ISOP via vignette documents
 vignette("ISOP")
 }
 
