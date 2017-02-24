@@ -16,7 +16,7 @@
 \begin{document}
 
 
-\title{ISOP Package Introduction}
+\title{User guide for $ISOP$ package version 0.99.1}
 \author{Trung Nghia Vu}
 \maketitle
 
@@ -55,7 +55,7 @@ data(isoformDataSample)
 isoformDataSample=ifelse(isoformDataSample <= 3,0,isoformDataSample)
 isoformDataSample=isoformDataSample[which(rowSums(isoformDataSample)>0),] 
 #Tranform the read counts to log scale
-isoformDataSample=logC(isoformDataSample)
+isoformDataSample=ifelse(isoformDataSample==0,0,log2(isoformDataSample))
 #The data is now ready for ISOP
 @
 
@@ -148,5 +148,5 @@ plotPairFeatures(iso_a,iso_b,group.label=group.label)
 @
 
 \section{References}
-[1] Vu et al.,"Isoform-level expression patterns in single-cell RNA-sequencing data", in preparation.
+1. Vu, Trung Nghia, Quin F. Wills, Krishna R. Kalari, Nifang Niu, Liewei Wang, Yudi Pawitan, and Mattias Rantalainen. "Isoform-Level Gene Expression Patterns in Single-Cell RNA-Sequencing Data." bioRxiv, January 16, 2016, 36988. doi:10.1101/036988.
 \end{document}

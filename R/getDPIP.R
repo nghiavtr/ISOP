@@ -20,7 +20,7 @@
 #' isoformDataSample=ifelse(isoformDataSample <= 3,0,isoformDataSample)
 #' isoformDataSample=isoformDataSample[which(rowSums(isoformDataSample)>0),]
 #' #tranform read count dataset to log scale
-#' isoformDataSample=logC(isoformDataSample)
+#' isoformDataSample=ifelse(isoformDataSample==0,0,log2(isoformDataSample))
 #' #now data is ready
 #' tbreak=round(sqrt(ncol(isoformDataSample)))
 #' model.res=doMixtureModelMatrix(isoformLevel.data=isoformDataSample,txdb=txdb,tbreak=tbreak)

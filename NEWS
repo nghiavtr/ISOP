@@ -1,2 +1,8 @@
-Date: 25 Nov 2015
+Date: 24 Feb 2017
+- Add parameter plot.title for function plotPairFeatures
+- Remove function logC from ISOP package
+- Improve vignette documents
+- Clean and improve codes
+
+Date: 18 Nov 2015
 - First submission

@@ -12,8 +12,8 @@ Isoform-level Expression Patterns in Single-cell RNA-sequencing Data
 \tabular{ll}{
 Package: \tab ISOP\cr
 Type: \tab Package\cr
-Version: \tab 0.99.0\cr
-Date: \tab 2015-25-11\cr
+Version: \tab 0.99.1\cr
+Date: \tab 2017-02-24\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab yes\cr
 }
