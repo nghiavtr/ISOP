@@ -4,12 +4,12 @@
 # How to install "ISOP"
 ### Latest release
 [Version 0.99.1](https://github.com/nghiavtr/ISOP/releases/download/v0.99.1/ISOP_0.99.1.tar.gz)
-#####Install from command line:
+##### Install from command line:
 ```R
 R CMD INSTALL ISOP_x.y.z.tar.gz 
 ```
 where ISOP_x.y.z.tar.gz is one version of ISOP
-#####ISOP package requires the some packages installed before using:
+##### ISOP package requires the some packages installed before using:
 ```R
 AnnotationDbi, TxDb.Hsapiens.UCSC.hg19.knownGene, doParallel
 ```
