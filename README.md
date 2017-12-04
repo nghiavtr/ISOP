@@ -31,7 +31,7 @@ We propose a novel method ISOform-Patterns (ISOP) [1], based on mixture modeling
 We introduce practical uses of the ISOP method for analyzing isoform patterns and discovering differential-pattern genes.
 
 ### Detect isoform patterns
-In this section, we use a small example dataset (read count) to show a practical use of ISOP for
+In this section, we use a small example dataset to show a practical use of ISOP for
 - Modelling expression differences of pairs of isoforms by the Gaussian mixture model
 - Detecting principal isoform patterns from the isoform pairs
 
