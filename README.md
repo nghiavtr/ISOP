@@ -149,5 +149,4 @@ plotHistModels(deltaVal,mydmix,plot.title="",fit.line=FALSE,lwd=4)
 plotPairFeatures(iso_a,iso_b,group.label=group.label)
 ```
 # Reference
-Vu et al 2016, https://www.biorxiv.org/content/early/2016/01/16/036988
-(update soon)
+Vu et al., "Isoform-level gene expression patterns in single-cell RNA-sequencing data" Bioinformatics, bty100, 2018. https://doi.org/10.1093/bioinformatics/bty100
