@@ -17,7 +17,7 @@ AnnotationDbi, TxDb.Hsapiens.UCSC.hg19.knownGene, doParallel
 ```R
 install.packages("devtools")
 library("devtools")
-install_github("ISOP","nghiavtr")
+install_github("nghiavtr/ISOP")
 library("ISOP")
 ```
 # View vignette for user guide
